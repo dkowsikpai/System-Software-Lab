@@ -1,0 +1,269 @@
+---------------Menu---------------
+1. Single Level
+2. Two Level
+3. Hierarchy
+4. Exit
+Select menu: 1
+-----------------------Single level-----------------------
+----------Single Level menu----------
+1. Create
+2. Delete
+3. Traverse
+4. Search
+5. Exit
+Select Menu: 1
+Name: ABC.txt
+Created Date: 05/05/2020
+Size: 50kb
+Permission: R/W
+File Created Successfully
+----------Single Level menu----------
+1. Create
+2. Delete
+3. Traverse
+4. Search
+5. Exit
+Select Menu: 1
+Name: DEF.txt
+Created Date: 06/06/2020
+Size: 30kb
+Permission: W
+File Created Successfully
+----------Single Level menu----------
+1. Create
+2. Delete
+3. Traverse
+4. Search
+5. Exit
+Select Menu: 3
+--------------File Content--------------
+Root Directory:DEF.txt->ABC.txt->
+
+
+----------Single Level menu----------
+1. Create
+2. Delete
+3. Traverse
+4. Search
+5. Exit
+Select Menu: 4
+Name: ABC.txt
+File ABC.txt found
+Location: Root Directory
+Created On: 05/05/2020
+Size: 50kb
+Permission: R/W
+
+----------Single Level menu----------
+1. Create
+2. Delete
+3. Traverse
+4. Search
+5. Exit
+Select Menu: 2
+Name: ABC.txt
+Location: Root Directory
+No of files: 1
+Count: 1
+Created On: 06/06/2020
+Size: 30kb
+Permission: W
+
+File Deleted Successfully
+----------Single Level menu----------
+1. Create
+2. Delete
+3. Traverse
+4. Search
+5. Exit
+Select Menu: 3
+--------------File Content--------------
+Root Directory:DEF.txt->
+
+
+----------Single Level menu----------
+1. Create
+2. Delete
+3. Traverse
+4. Search
+5. Exit
+Select Menu: 5
+---------------Menu---------------
+1. Single Level
+2. Two Level
+3. Hierarchy
+4. Exit
+Select menu: 2
+-----------------------Two level-----------------------
+-------------------Two Level Menu--------------
+1. Create Folder
+2. Create File
+3. Delete File
+4. Search File
+5. Traverse
+6. Exit
+Select Menu: 2
+Parent Folder: Main
+Name: ABC.txt
+Created Date: 06/06/2020
+Size: 20kb
+Permission: R/W/E
+File Created Successfully
+-------------------Two Level Menu--------------
+1. Create Folder
+2. Create File
+3. Delete File
+4. Search File
+5. Traverse
+6. Exit
+Select Menu: 3
+Parent Folder: Main
+Name: ABC.txt
+ABC.txt deleted from the directory Main
+Directory: Main
+File Count: 0
+Size: 0
+Date created: 06/06/2020
+Permission: R/W/E
+
+-------------------Two Level Menu--------------
+1. Create Folder
+2. Create File
+3. Delete File
+4. Search File
+5. Traverse
+6. Exit
+Select Menu: 5
+--------------File Content--------------
+Main: 
+
+-------------------Two Level Menu--------------
+1. Create Folder
+2. Create File
+3. Delete File
+4. Search File
+5. Traverse
+6. Exit
+Select Menu: 6
+---------------Menu---------------
+1. Single Level
+2. Two Level
+3. Hierarchy
+4. Exit
+Select menu: 3
+-----------------------Hierarchy level-----------------------
+-------------------Hierarchy Level Menu--------------
+1. Create Folder
+2. Create File
+3. Delete File
+4. Search File
+5. Traverse
+6. Exit
+Select Menu: 1
+Parent Folder: Root
+Name: Sec
+Created Date: 05/05/2020
+Permission: R/W/E
+Parent with name Root does not exists !!!
+-------------------Hierarchy Level Menu--------------
+1. Create Folder
+2. Create File
+3. Delete File
+4. Search File
+5. Traverse
+6. Exit
+Select Menu: 5
+--------------File Content--------------
+Main ((null))
+
+-------------------Hierarchy Level Menu--------------
+1. Create Folder
+2. Create File
+3. Delete File
+4. Search File
+5. Traverse
+6. Exit
+Select Menu: 1       
+Parent Folder: Main
+Name: Sec
+Created Date: 05/05/2020
+Permission: R/W/E
+Directory Created Successfully
+-------------------Hierarchy Level Menu--------------
+1. Create Folder
+2. Create File
+3. Delete File
+4. Search File
+5. Traverse
+6. Exit
+Select Menu: 2
+Parent Folder: Sec
+Name: Hello.txt
+Created Date: 06/06/2020
+Size: 40kb
+Permission: R/W/E
+File Created Successfully
+-------------------Hierarchy Level Menu--------------
+1. Create Folder
+2. Create File
+3. Delete File
+4. Search File
+5. Traverse
+6. Exit
+Select Menu: 5
+--------------File Content--------------
+Main ((null))
+Sec (Main)
+Hello.txt (Sec)
+
+-------------------Hierarchy Level Menu--------------
+1. Create Folder
+2. Create File
+3. Delete File
+4. Search File
+5. Traverse
+6. Exit
+Select Menu: 4
+Name: Hello.txt
+File Hello.txt Found
+Location: Sec
+Date created: 06/06/2020
+Permission: R/W/E
+
+-------------------Hierarchy Level Menu--------------
+1. Create Folder
+2. Create File
+3. Delete File
+4. Search File
+5. Traverse
+6. Exit
+Select Menu: 3       
+Parent Folder: Sec
+Name: Hello.txt
+File Deleted Successfully
+-------------------Hierarchy Level Menu--------------
+1. Create Folder
+2. Create File
+3. Delete File
+4. Search File
+5. Traverse
+6. Exit
+Select Menu: 5
+--------------File Content--------------
+Main ((null))
+Sec (Main)
+
+-------------------Hierarchy Level Menu--------------
+1. Create Folder
+2. Create File
+3. Delete File
+4. Search File
+5. Traverse
+6. Exit
+Select Menu: 6
+---------------Menu---------------
+1. Single Level
+2. Two Level
+3. Hierarchy
+4. Exit
+Select menu: 4
