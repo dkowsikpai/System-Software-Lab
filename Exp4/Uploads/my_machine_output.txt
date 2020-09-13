@@ -1,0 +1,20 @@
+Output 1
+
+P1 - 4  5       4
+P3 - 4  6       5
+P4 - 7  9       4
+P0 - 14 13      7
+P2 - 20 13      7
+Safe Sequence exist
+P1->P3->P4->P0->P2->
+
+
+Output 2
+
+P1 - 4  5       4
+P3 - 4  6       5
+P4 - 7  9       4
+P0 - 14 13      7
+P2 - 20 13      7
+Safe Sequence exist
+P1->P3->P4->P0->P2->
