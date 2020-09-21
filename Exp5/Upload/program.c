@@ -54,7 +54,7 @@ void fcfs(){
 
     // Printing head movements
     printf("Total Head movements: %d\n", total);
-
+    fclose(f);
 }
 
 
@@ -138,6 +138,8 @@ void scan() {
     
     // Printing
     printf("Total Head movements: %d\n", total);
+    fclose(f);
+
 }
 
 
@@ -213,7 +215,7 @@ void cscan(){
         i = 0;  
         // Forward pass to initial header position
         while (i <= init) {
-            printf("%d->%d\n", header, req[i]);
+            // printf("%d->%d\n", header, req[i]);
             total += abs(header - req[i]);
             header = req[i];
             i++;
@@ -223,10 +225,39 @@ void cscan(){
     
     // Printing
     printf("Total Head movements: %d\n", total);
+    fclose(f);
 }
 
 void main (){
-    // fcfs();
-    // scan();
-    // cscan();
+    // Initialisation
+    int flag=1, menu=4;
+
+    // Menu
+    while (flag){
+        printf("-----------------Menu----------------\n1. FCFS\n2. SCAN\n3. C-SCAN\n4. Exit\nSelect:");
+        scanf("%d", &menu);
+        // Switching between menu
+        switch (menu)
+        {
+        case 1: 
+            printf("\n---------------FCFS disk Scheduling--------------------\n");
+            fcfs();
+            break;
+        case 2: 
+            printf("\n---------------SCAN disk Scheduling--------------------\n");
+            scan();
+            break;
+        case 3: 
+            printf("\n---------------C-SCAN disk Scheduling--------------------\n");
+            cscan();
+            break;
+        case 4:
+            flag=0;
+            break;
+
+        default:
+            printf("Invalid Menu\n");
+            break;
+        }
+    }
 }
