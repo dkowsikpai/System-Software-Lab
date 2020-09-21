@@ -16,7 +16,7 @@ void fcfs(){
 
     // Reading from the file
     FILE *f;
-    if ((f = fopen("req.txt", "r")) == NULL) {
+    if ((f = fopen("input.txt", "r")) == NULL) {
         printf("Error! opening file");
         exit(1);
     }
@@ -65,7 +65,7 @@ void scan() {
     int *req;
     // Reading from file
     FILE *f;
-    if ((f = fopen("req.txt", "r")) == NULL) {
+    if ((f = fopen("input.txt", "r")) == NULL) {
         printf("Error! opening file");
         exit(1);
     }
@@ -151,7 +151,7 @@ void cscan(){
 
     // Reading from file
     FILE *f;
-    if ((f = fopen("req.txt", "r")) == NULL) {
+    if ((f = fopen("input.txt", "r")) == NULL) {
         printf("Error! opening file");
         exit(1);
     }
