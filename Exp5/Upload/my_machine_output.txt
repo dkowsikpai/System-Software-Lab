@@ -1,0 +1,36 @@
+-----------------Menu----------------
+1. FCFS
+2. SCAN
+3. C-SCAN
+4. Exit
+Select:1
+
+---------------FCFS disk Scheduling--------------------
+Enter current header position: 53
+Total Head movements: 632
+-----------------Menu----------------
+1. FCFS
+2. SCAN
+3. C-SCAN
+4. Exit
+Select:2
+
+---------------SCAN disk Scheduling--------------------
+Enter current header position: 53
+Total Head movements: 331
+-----------------Menu----------------
+1. FCFS
+2. SCAN
+3. C-SCAN
+4. Exit
+Select:3
+
+---------------C-SCAN disk Scheduling--------------------
+Enter current header position: 53
+Total Head movements: 386
+-----------------Menu----------------
+1. FCFS
+2. SCAN
+3. C-SCAN
+4. Exit
+Select:4
