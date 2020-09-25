@@ -1,0 +1,20 @@
+Buffer spaces filled: 0
+Consumer cannot consume : Buffer empty
+
+Producer produced successfully
+Buffer spaces filled: 3
+
+Producer produced successfully
+Buffer spaces filled: 10
+
+Consumer consumed successfully
+Buffer spaces filled: 6
+
+Consumer consumed successfully
+Buffer spaces filled: 3
+
+Producer produced successfully
+Buffer spaces filled: 12
+
+Consumer consumed successfully
+Buffer spaces filled: 4
