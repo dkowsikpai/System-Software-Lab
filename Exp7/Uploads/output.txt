@@ -1,0 +1,36 @@
+Enter the number of Philosophers: 5
+Philosopher 1 is thinking
+Philosopher 2 is thinking
+Philosopher 3 is thinking
+Philosopher 4 is thinking
+Philosopher 5 is thinking
+Philosopher 3 is hungry
+Philosopher 1 is hungry
+Philosopher 5 is hungry
+Philosopher 2 is hungry
+Philosopher 2 takes fork 1  and 3 from table
+Philosopher 2 is Eating
+Philosopher 4 is hungry
+Philosopher 4 takes fork 3  and 5 from table
+Philosopher 4 is Eating
+Philosopher 2 put fork 1 and 3 on table
+Philosopher 2 thinking
+Philosopher 1 takes fork 5  and 2 from table
+Philosopher 1 is Eating
+Philosopher 4 put fork 3 and 5 on table
+Philosopher 4 thinking
+Philosopher 3 takes fork 2  and 4 from table
+Philosopher 3 is Eating
+Philosopher 2 is hungry
+Philosopher 1 put fork 5 and 2 on table
+Philosopher 1 thinking
+Philosopher 5 takes fork 4  and 1 from table
+Philosopher 5 is Eating
+Philosopher 4 is hungry
+Philosopher 3 put fork 2 and 4 on table
+Philosopher 3 thinking
+Philosopher 2 takes fork 1  and 3 from table
+Philosopher 2 is Eating
+Philosopher 1 is hungry
+Philosopher 5 put fork 4 and 1 on table
+Philosopher 5 thinking
