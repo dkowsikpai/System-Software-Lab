@@ -53,15 +53,15 @@ void main(){
             // ===================== For variable section ==============
             if (strcmp(opcode, "WORD") == 0) { // If WORD
                 printf("%d\t%s\t%s\t%s\n", loc_counter, label, opcode, operand); // Output to console
-                fprintf(symf, "%s\t%d\n", label, loc_counter); // Output to symtab file
+                fprintf(symf, "%d\t%s\n", loc_counter, label); // Output to symtab file
                 loc_counter += 3;
             } else if (strcmp(opcode, "RESW") == 0) { // If RESW
                 printf("%d\t%s\t%s\t%s\n", loc_counter, label, opcode, operand); // Output to console
-                fprintf(symf, "%s\t%d\n", label, loc_counter); // Output to symtab file
+                fprintf(symf, "%d\t%s\n", loc_counter, label); // Output to symtab file
                 loc_counter += 3*atoi(operand);
             } else if (strcmp(opcode, "BYTE") == 0) { // If BYTE
                 printf("%d\t%s\t%s\t%s\n", loc_counter, label, opcode, operand); // Output to console
-                fprintf(symf, "%s\t%d\n", label, loc_counter); // Output to symtab file
+                fprintf(symf, "%d\t%s\n", loc_counter, label); // Output to symtab file
                 if(operand[0] == 'X')
                     loc_counter += 1;
                 else {                 
@@ -69,7 +69,7 @@ void main(){
                 }
             } else if (strcmp(opcode, "RESB") == 0) { // If RESB
                 printf("%d\t%s\t%s\t%s\n", loc_counter, label, opcode, operand); // Output to console
-                fprintf(symf, "%s\t%d\n", label, loc_counter); // Output to symtab file
+                fprintf(symf, "%d\t%s\n", loc_counter, label); // Output to symtab file
                 loc_counter += atoi(operand);
             } else if (strcmp(opcode, "END") == 0) { // At END
                 printf("%d\t%s\t%s\t%s\n", loc_counter, label, opcode, operand); // Output to console
