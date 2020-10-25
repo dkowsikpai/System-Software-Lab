@@ -36,7 +36,7 @@ void main(){
         exit(1);
     }
 
-    if((obj = fopen("object.txt", "w")) == NULL){ // loading the contents of Intermediate File
+    if((obj = fopen("output.txt", "w")) == NULL){ // loading the contents of Intermediate File
         printf("Error! opening file");
         exit(1);
     }
