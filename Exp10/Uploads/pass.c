@@ -129,7 +129,7 @@ int main() {
         }
         fscanf(outf, "%s%s", obj1, obj2);
     }
-    printf("\nE^00%d", sa); // End Record and address of first executable instruction
+    printf("\nE^00%d\n", sa); // End Record and address of first executable instruction
     fprintf(resf, "\nE^00%d", sa);
     return 0;
 }

@@ -11,7 +11,7 @@ void main (){
     // Initializing Process, resource
     int process, res, a, or=0, proc=-1; 
 
-    // Nums.txt gives the number of processes and resources
+    // Nums.txt gives the number of processes, resources, request_process_id
     FILE *f;
     if ((f = fopen("nums.txt", "r")) == NULL) {
         printf("Error! opening file");

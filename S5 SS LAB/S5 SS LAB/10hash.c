@@ -1,6 +1,7 @@
         #include<stdio.h>
         #include<stdlib.h>
         #include<string.h>
+        #include<ctype.h>
         #define MAX 11
         char l[10];
         void search();
@@ -51,7 +52,7 @@
         int create(int num)
         {
         int key;
-        key=num%11;
+        key=toascii(num)%11;
         return key;
         }
          
